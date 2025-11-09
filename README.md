@@ -192,16 +192,20 @@ http://127.0.0.1:8001/api/
 
 *Request body:*
 
-`{
+```
+{
   "value": 12.4
-}`
+}
+```
 
 
 *Response (201):*
 
-`{
+```
+{
   "value": 12.4
-}`
+}
+```
 
 
 Temperature is saved with a timestamp in the database automatically.
@@ -212,9 +216,11 @@ Temperature is saved with a timestamp in the database automatically.
 
 *Response:*
 
-`{
+```
+{
   "average": 12.4
-}`
+}
+```
 
 8. Get average temperature for a city
 
